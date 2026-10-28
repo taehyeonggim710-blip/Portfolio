@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Võ Phương Uyên - IT Developer Portfolio</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#" class="logo"><span class="logo-accent">&lt;</span>Uyên<span class="logo-accent">/&gt;</span></a>
+            <nav class="nav-links">
+                <a href="#about"><i class="far fa-user"></i> Giới thiệu</a>
+                <a href="#skills"><i class="fas fa-code"></i> Kỹ năng</a>
+                <a href="#projects"><i class="fas fa-laptop-code"></i> Dự án</a>
+                <a href="#contact" class="nav-btn">Liên hệ</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-container">
+            <div class="badge-status">
+                <span class="status-dot"></span> Sẵn sàng hợp tác & Thực tập
+            </div>
+            <h1>Xin chào, tôi là <span class="gradient-text">Nguyễn Võ Phương Uyên</span></h1>
+            <p class="hero-subtitle">Sinh viên Công nghệ Thông tin tại Trường Đại học Giao thông Vận tải TP.HCM. Chuyên về phân tích CSDL.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-eye"></i> Xem Dự Án</a>
+                <a href="#contact" class="btn btn-secondary"><i class="fas fa-paper-plane"></i> Liên Hệ Ngay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">OVERVIEW</span>
+                <h2>Thông Tin Cá Nhân</h2>
+            </div>
+            <div class="about-grid">
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-user-graduate"></i></div>
+                    <h3>Học Vấn</h3>
+                    <p class="card-title">Đại học Giao thông Vận tải TP.HCM[cite: 1]</p>
+                    <p class="card-desc">Chuyên ngành Công nghệ Thông tin. Tập trung vào cấu trúc dữ liệu, thuật toán.</p>
+                </div>
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Định Hướng Chuyên Môn</h3>
+                    <p class="card-title">Data Analyst</p>
+                    <p class="card-desc">Tập trung vào việc thu thập, làm sạch và phân tích dữ liệu để chuyển hóa các con số phức tạp thành insights thực tế.</p>
+                </div>
+                <div class="glass-card about-card">
+                    <div class="card-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Liên Hệ Trực Tiếp</h3>
+                    <p class="card-title">Email Chính Thức</p>
+                    <p class="card-desc"><a href="email:uyennvp1251@ut.edu.vn" class="highlight-link">uyennvp1251@ut.edu.vn</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-darker">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">TECH STACK</span>
+                <h2>Kỹ Năng & Công Nghệ</h2>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skills-category">
+                    <h3><i class="fas fa-server"></i> Backend & Cơ sở dữ liệu</h3>
+                    <div class="skill-tags">
+                        <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-badge"><i class="fas fa-bolt"></i> FastAPI</span>
+                        <span class="skill-badge"><i class="fas fa-database"></i> SQL Server</span>
+                        <span class="skill-badge"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-badge"><i class="fas fa-cubes"></i> SQLAlchemy</span>
+                        <span class="skill-badge"><i class="fas fa-key"></i> JWT Auth</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Frontend & Công cụ</h3>
+                    <div class="skill-tags">
+                        <span class="skill-badge"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-badge"><i class="fab fa-css3-alt"></i> CSS3 / SCSS</span>
+                        <span class="skill-badge"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-badge"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+                        <span class="skill-badge"><i class="fas fa-sitemap"></i> PlantUML / PowerDesigner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PORTFOLIO</span>
+                <h2>Dự Án Tiêu Biểu</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <i class="fas fa-folder-open project-folder"></i>
+                        <div class="project-links">
+                            <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+                            <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>Mô phỏng thuật Toán</h3>
+                    <p>Ứng dụng web mô phỏng trực quan các thuật toán.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>SQLAlchemy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-darker">
+        <div class="container text-center">
+            <div class="section-header">
+                <span class="section-tag">CONNECT</span>
+                <h2>Liên Hệ Với Tôi</h2>
+            </div>
+            <p class="contact-desc">Tôi luôn sẵn sàng với các cơ hội thực tập, dự án hợp tác hoặc học hỏi kinh nghiệm.</p>
+            
+            <a href="email:uyennvp1251@ut.edu.vn" class="glass-card contact-box">
+                <i class="fas fa-paper-plane contact-icon"></i>
+                <div>
+                    <span class="contact-label">Gửi Email Cho Tôi</span>
+                    <span class="contact-value">uyennvp1251@ut.edu.vn</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 - Nguyễn Võ Phương Uyên.</p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
